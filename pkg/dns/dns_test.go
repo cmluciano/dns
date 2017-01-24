@@ -32,10 +32,10 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"k8s.io/client-go/kubernetes/fake"
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/tools/cache"
+	"k8s.io/client-go/1.5/kubernetes/fake"
+	"k8s.io/client-go/1.5/pkg/api/v1"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	"k8s.io/client-go/1.5/tools/cache"
 
 	"k8s.io/dns/pkg/dns/config"
 	"k8s.io/dns/pkg/dns/treecache"

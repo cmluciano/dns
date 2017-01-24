@@ -23,12 +23,12 @@ import (
 	"sync"
 	"time"
 
-	clientset "k8s.io/client-go/kubernetes"
-	"k8s.io/client-go/pkg/api/v1"
-	metav1 "k8s.io/client-go/pkg/apis/meta/v1"
-	"k8s.io/client-go/pkg/runtime"
-	"k8s.io/client-go/pkg/watch"
-	kcache "k8s.io/client-go/tools/cache"
+	clientset "k8s.io/client-go/1.5/kubernetes"
+	"k8s.io/client-go/1.5/pkg/api/v1"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	"k8s.io/client-go/1.5/pkg/runtime"
+	"k8s.io/client-go/1.5/pkg/watch"
+	kcache "k8s.io/client-go/1.5/tools/cache"
 
 	"k8s.io/dns/pkg/dns/config"
 	"k8s.io/dns/pkg/dns/treecache"
